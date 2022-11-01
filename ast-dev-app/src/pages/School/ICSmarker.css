@@ -1,0 +1,10 @@
+.icspoint{
+    position:absolute;
+    z-index: 20;
+    width: 100%;
+}
+.casualtypoint{
+    position:absolute;
+    z-index: 30;
+    width: 100%;
+}

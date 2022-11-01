@@ -1,0 +1,111 @@
+body {
+  font-family: "Acumin Pro";
+  color: #021025;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sidebar {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: #fafafb;
+}
+
+.featuredItem {
+  width: 350px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 25px 0;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  display: flex;
+}
+
+.featuredTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+a:-webkit-any-link{
+  text-decoration: none;
+  color:#021025;
+}
+
+.sidebarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.featuredItem:hover {
+  background-color: #e8ecef;
+}
+
+.widgetStatus {
+  text-align: left;
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+
+.info {
+  font-size: 14px;
+  width: 100%;
+  padding: 0 10px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.header {
+  display: block;
+  float: left;
+}
+
+.sidebarWrapper {
+  padding: 15px;
+  color: #555;
+}
+
+/* .widgetStatus.Safe {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+.widgetLgButton.Declined {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+.widgetLgButton.Pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+} */
+.widgetStatusDanger {
+  text-align: left;
+  background-color: #FFEBEB;
+  color: #F7261C;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.widgetStatusSafe {
+  text-align: left;
+  background-color: #e5faf2;
+  color: #3bb077;
+  border-radius: 5px;
+  padding: 5px;
+}
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    width:160px;
+    min-width: 32%;;
+  }
+}

@@ -1,0 +1,25 @@
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:50px;
+}
+
+.functionMenu input[type="radio"]{
+    opacity:0;
+    margin:auto 0;
+}
+.functionMenu label.mode{
+    border-radius: 30px;
+    background-color: white;
+    padding:0.5rem 1rem;
+    border:1px solid #111111;
+    font-weight: bold;
+}
+.functionMenu input[type="radio"]:checked+label.mode{
+    background-color: 38618C;
+    color:white;
+}
+.icslead{
+    margin:auto 10px;
+}
